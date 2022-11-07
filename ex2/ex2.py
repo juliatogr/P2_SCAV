@@ -1,5 +1,3 @@
-from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
-
 import subprocess as sp
 
 # cut the original video to a 1-minute video

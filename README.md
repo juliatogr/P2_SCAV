@@ -55,3 +55,11 @@ Create a python script able to resize (resolution change) of any input given
 - https://stackoverflow.com/questions/25955322/subprocess-call-ffmpeg-command-line
 - https://stackoverflow.com/questions/9913032/how-can-i-extract-audio-from-video-with-ffmpeg
 - https://superuser.com/questions/277642/how-to-merge-audio-and-video-file-in-ffmpeg
+
+
+### Exercise 3
+- https://stackoverflow.com/questions/70797/how-to-prompt-for-user-input-and-read-command-line-arguments
+- https://stackoverflow.com/questions/28806816/use-ffmpeg-to-resize-image
+- https://ottverse.com/change-resolution-resize-scale-video-using-ffmpeg/
+- https://stackoverflow.com/questions/25955322/subprocess-call-ffmpeg-command-line
+- https://stackoverflow.com/questions/3476732/how-to-loop-backwards-in-python
