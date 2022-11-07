@@ -44,6 +44,22 @@ Create a python script able to resize (resolution change) of any input given
 
 ### Solution proposed
 
+The program asks the user the filepath and the new width and height. Then it scales it
+to a new output file.
+
+Code in `ex3.py` script inside the `ex3` folder. Execute it in the folder.
+Inside the folder there is also an `outputs` folder where there is a video example scaled at 320x240
+
+## Exercise 4
+
+### Statement
+Create a python script which will check the audio tracks of the video. Then, with this
+information, it will explain in which broadcasting standard the video can fit. I.e.: one 
+AC-3 audio, that means it can be ATSC.
+
+### Solution proposed
+
+
 ## Util links
 
 ### Exercise 1
