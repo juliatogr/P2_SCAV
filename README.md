@@ -1,5 +1,7 @@
 # P2_SCAV
 
+Project to deliver the 2nd laboratory of the video section of Audio and Video Encoding Systems subject 
+at Pompeu Fabra University.
 
 ## Exercise 1
 
@@ -12,7 +14,7 @@ which can mark at least 3 relevant data from the container
 
 printing all metadata from the bbb.mp4 using ffmpeg. 
 
-Code in `ex1.py` script.
+Code in `ex1.py` script. Execute it in the project folder with the command `python3 scripts/ex1.py`
 
 ## Exercise 2
 
@@ -33,9 +35,7 @@ export 2 audio files: `bbb_1min_audio.mp3` and `bbb_1min_audio.aac`. Then, I pac
 each audio with the extracted video with name indicating the audio format:
 `bbb_1min_mp3_pack.mp4` and `bbb_1min_aac_pack.mp4`.
 
-Code in `ex2.py` script inside the `ex2` folder. Execute it in the folder.
-Inside the folder there is also an `outputs` folder where there are the mentioned
-videos and audios.
+Code in `ex2.py` script. Execute it in the project folder with the command `python3 scripts/ex2.py`
 
 ## Exercise 3
 
@@ -47,8 +47,7 @@ Create a python script able to resize (resolution change) of any input given
 The program asks the user the filepath and the new width and height. Then it scales it
 to a new output file.
 
-Code in `ex3.py` script inside the `ex3` folder. Execute it in the folder.
-Inside the folder there is also an `outputs` folder where there is a video example scaled at 320x240
+Code in `ex3.py` script. Execute it in the project folder with the command `python3 scripts/ex3.py`
 
 ## Exercise 4
 
@@ -59,7 +58,10 @@ AC-3 audio, that means it can be ATSC.
 
 ### Solution proposed
 
+Reads the audio format but I did not finished the exercise because I did not found how to 
+get what broadcast standards fit.
 
+Code in `ex4.py` script. Execute it in the project folder with the command `python3 scripts/ex4.py`
 
 ## Exercise 5
 
@@ -68,6 +70,10 @@ Integrate some or all the previous exercises into one class inside 1 python scri
 
 ### Solution proposed
 
+Class Ex5 which has methods for each implemented exercise (1 to 3). The script includes a menu
+which lets the user choose the exercise to execute.
+
+Code in `ex5.py` script. Execute it in the project folder with the command `python3 scripts/ex5.py`
 
 ## Util links
 
@@ -81,12 +87,9 @@ Integrate some or all the previous exercises into one class inside 1 python scri
 - https://stackoverflow.com/questions/9913032/how-can-i-extract-audio-from-video-with-ffmpeg
 - https://superuser.com/questions/277642/how-to-merge-audio-and-video-file-in-ffmpeg
 
-
 ### Exercise 3
 - https://stackoverflow.com/questions/70797/how-to-prompt-for-user-input-and-read-command-line-arguments
 - https://stackoverflow.com/questions/28806816/use-ffmpeg-to-resize-image
 - https://ottverse.com/change-resolution-resize-scale-video-using-ffmpeg/
 - https://stackoverflow.com/questions/25955322/subprocess-call-ffmpeg-command-line
 - https://stackoverflow.com/questions/3476732/how-to-loop-backwards-in-python
-
-### Exercise 4
