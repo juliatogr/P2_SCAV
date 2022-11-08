@@ -1,22 +1,11 @@
 import subprocess as sp
+import ffmpeg
 
-# ask for the parameters
-file = input("Please enter the path to the input file. (Ex. ../data/bbb.mp4) ")
-w = input("Please enter the desired width. (Ex. 320) ")
-h = input("Please enter the desired height. (Ex. 240) ")
+# path to file
+bbb = './data/bbb.mp4'
 
-# Get the format of the file
-file_format = ""
+# get the audio format
+audio_format = ffmpeg.probe(bbb)["streams"][1]['codec_name']
 
-for i in range(len(file), 0, -1):
-    file_format = file[i-1] + file_format
-    if file[i-1] == ".":
-        break
-
-# change the scale of the input
-sp.call([
-    'ffmpeg',
-    '-i', file,
-    '-vf', 'scale=%sx%s' % (w, h),
-    './outputs/output_%sx%s%s' % (w, h, file_format)
-])
+# now I would try to find the broadcasts standards from
+# the audio format but I didn't find how.

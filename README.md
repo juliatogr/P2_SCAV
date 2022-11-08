@@ -60,6 +60,15 @@ AC-3 audio, that means it can be ATSC.
 ### Solution proposed
 
 
+
+## Exercise 5
+
+### Statement
+Integrate some or all the previous exercises into one class inside 1 python script.
+
+### Solution proposed
+
+
 ## Util links
 
 ### Exercise 1
@@ -79,3 +88,5 @@ AC-3 audio, that means it can be ATSC.
 - https://ottverse.com/change-resolution-resize-scale-video-using-ffmpeg/
 - https://stackoverflow.com/questions/25955322/subprocess-call-ffmpeg-command-line
 - https://stackoverflow.com/questions/3476732/how-to-loop-backwards-in-python
+
+### Exercise 4
